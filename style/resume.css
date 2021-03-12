@@ -1,0 +1,224 @@
+.Name-dp{
+    /* height: 100vh; */
+    /* padding: 50px; */
+    margin-left: 38%;
+    margin-top: 5%;
+    font-size: 30px;
+    font-style: italic;
+    
+}
+body {
+    background-color: #cecfd0;
+    color: black;
+    font-family: Montserrat, sans-serif;
+}
+.dp2{
+    max-width: 81%;
+    max-height: 10%;
+    margin-left: -23%;
+    opacity: 0.6;
+}
+.nav{
+   height: 100%;
+   width: 114px;
+   background-color: #575b70;
+   z-index: 1;
+   top: 0;
+   left: 0;
+   position: absolute;
+   position: fixed;
+}
+.nav a{
+    display: block;
+    text-decoration: none;
+    color: #cecfd0;
+    font-size: 25px;
+}
+.dp1{
+max-width: 100%;
+}
+.nav-names{
+    padding: 32px 8px 11px 16px;
+}
+.nav-names:hover{
+    box-shadow: 1px 2px 20px 0px black;
+    background: #575b70;
+    font-style: italic;
+    border-radius: 50%;
+}
+.name-content{
+    font-size: 18px;
+}
+#My-Name{
+    font-size: 25px;
+    text-decoration: underline;
+}
+.align-resume{
+    margin-left: 20%;
+}
+#My-Skills{
+    font-size: 22px;
+    margin-top: 4%;
+}
+.test1{
+    background-color: white;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+.test2{
+    background-color: #575b70;
+    max-width: 80%;
+    color: #575b70;
+    height: 20px;
+}
+.test3{
+    background-color: #575b70;
+    max-width: 10%;
+    color: #575b70;
+    height: 20px;
+}
+.test4{
+    background-color: #575b70;
+    max-width: 92%;
+    color: #575b70;
+    height: 20px;
+}
+.test5{
+    background-color: #575b70;
+    max-width: 50%;
+    color: #575b70;
+    height: 20px;
+}
+.polls{
+    font-size: 17px;
+    font-style: italic;
+}
+#Photos{
+    font-size: 25px;
+    text-decoration: underline;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: inherit;
+    margin-right: 15px;
+  }
+  #myDIV{
+      animation: mymove 5s infinite;
+      background-color: #cecfd0;
+  }
+  @keyframes mymove{
+      25%{
+          background-color: #575b70;
+      }
+  }
+.column{
+    float: left;
+    width: 20%;
+    padding: 0px 6px;
+    border: solid #cecfd0 3pt;
+    /* background-color: pink; */
+}
+.column-img{
+    width: 100%;
+}
+.column-img:hover{
+    background-color: #cecfd0;
+
+}
+#Contact-Me{
+    font-size: 25px;
+    text-decoration: underline;
+}
+.contact-dets{
+    padding: 11px;
+}
+.form{
+    padding: 12px;
+    border: solid 1px black;
+    outline: solid 2px #575b70;
+}
+.Send-Message{
+    padding: 11px;
+    width: 17%;
+    border: 2px solid #cecfd0;
+}
+.table-div{
+    height: 649px;
+}
+.table1{
+    border: solid 1px ;
+    width: 353px;
+    height: 556px;
+}
+.table2{
+    border: solid 1px;
+    width: 353px;
+    /* height: 619px; */
+    height: 556px;
+    margin-right: 24%;
+    margin-left: 7%;
+}
+li{
+    padding: 12px;
+    list-style: none;
+    width: 104%;
+    position: relative;
+    left: -40px;
+    background-color: rgb(0,0,0,0.1);
+    border: 1px rgb(0,0,0,0.2) solid;
+}
+#Basic{
+    padding: 1px;
+    list-style: none;
+    width: 111%;
+    position: relative;
+    left: -41px;
+    background-color: #575b70;
+    border: 1px rgb(0,0,0,0.2) solid;
+}
+.service-head-text{
+    position: relative;
+    text-align: center;
+}
+.service-text{
+    position: relative;
+    left: 28%;
+}
+#Sign-up{
+    width: 96.5%;
+    padding: 26px;
+    height: 21px;
+}
+button{
+    padding: 11px;
+    bottom: 10px;
+    left: 34% !important;   
+    background-color: #cecfd0;
+    border: none;
+    border-radius: 20%;
+    outline: none;
+}
+button:hover{
+    box-shadow: 1px 3px 3px 0px black;
+    text-shadow: 1px 0px 11px white;
+    background-color: rgb(0,0,0,0.8);
+    color: darkgray;
+    cursor: pointer;
+    outline: none;
+}
+.table1:hover{
+    background-color: white;
+}
+.table2:hover{
+    background-color: white;
+}
+#My-Price{
+    font-size: 27px;
+    height: 9px;
+}
+.ten-forty{
+    font-size: 27px;
+    height: 9px;
+    margin-left: 16px;
+}
